@@ -1,17 +1,95 @@
-# temperature_calculator
+Here's a **README.md** file for your Flutter Temperature Conversion app assignment, formatted for clarity and professionalism:
 
-A new Flutter project.
+---
 
-## Getting Started
+# 🌡️ Temperature Converter App
 
-This project is a starting point for a Flutter application.
+This Flutter application allows users to convert temperatures between **Fahrenheit and Celsius** using simple and clear UI, suitable for both **portrait and landscape orientations**. The app maintains a **conversion history** for user reference.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📱 Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# temperature_calc
+* Convert:
+
+  * **Celsius → Fahrenheit**
+  * **Fahrenheit → Celsius**
+* Easy toggle between conversion modes (only one mode can be selected at any time).
+* Accepts **numeric input** for temperature.
+* Outputs **converted result rounded to 2 decimal places**.
+* Adds each conversion to a scrollable **history list**.
+* Fully responsive layout for **portrait and landscape** views.
+
+---
+
+## 🧮 Conversion Formulae
+
+* **Fahrenheit to Celsius**:
+
+  $$
+  °C = (°F - 32) \times \frac{5}{9}
+  $$
+
+* **Celsius to Fahrenheit**:
+
+  $$
+  °F = °C \times \frac{9}{5} + 32
+  $$
+
+---
+
+## 🛠️ Built With
+
+* [Flutter](https://flutter.dev/)
+* Dart programming language
+* Flutter official widgets:
+
+  * `TextField`
+  * `RadioListTile`
+  * `ElevatedButton`
+  * `Text`
+  * `ListView`
+  * `MediaQuery` for responsive layout
+
+---
+
+## 🚀 Getting Started
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/Irakoze-Hortance/temperature_calc
+   cd temperature_calc
+   ```
+
+2. **Install dependencies**:
+
+   ```bash
+   flutter pub get
+   ```
+
+3. **Run the app**:
+
+   ```bash
+   flutter run
+   ```
+
+---
+
+## 🧪 Sample Interaction
+
+* User inputs `3.5` and selects `Celsius → Fahrenheit`
+
+  * Output: `38.30`
+  * History: `C to F: 3.5 => 38.3`
+
+* User inputs `55.0` and selects `Fahrenheit → Celsius`
+
+  * Output: `12.78`
+  * History: `F to C: 55.0 => 12.78`
+
+---
+
+
+
+
